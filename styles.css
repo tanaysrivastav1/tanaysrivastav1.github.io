@@ -1,0 +1,197 @@
+/* .screen {
+  font-family: "Tenali Ramakrishna", sans-serif;
+} */
+.screen {
+  display: block;
+  /* background-color: red; */
+  width: 1100px;
+}
+
+.links {
+  display: inline-block;
+  position: absolute;
+  height: 300px;
+  width: auto;
+  /* background-color: blue; */
+  margin-top: 35px;
+  margin-left: 50px;
+  width: 800px;
+}
+
+.header {
+  display: block;
+  position: static;
+  width: 1000px;
+  height: 60px;
+  background-color: orange;
+  margin-top: 10px;
+  border-radius: 18px;
+  margin-left: 10px;
+  padding-left: 50px;
+}
+
+.header_item {
+  display: inline-block;
+  position: relative;
+  margin-left: 50px;
+  margin-top: 8px;
+  font-size: 34px;
+  width: 160px;
+  height: 42px;
+  text-align: center;
+  border: 2px solid AntiqueWhite;
+  border-radius: 5px;
+  color: AntiqueWhite;
+  text-decoration: none;
+  font-family: "Tenali Ramakrishna", sans-serif;
+}
+
+.area_title {
+  display: inline-block;
+  /* background-color: green; */
+  font-size: 40px;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 30px;
+  height: auto;
+  width: 250px;
+  font-family: "Tenali Ramakrishna", sans-serif;
+}
+
+.bio {
+  display: block;
+  position: static;
+  /* background-color: yellow; */
+  height: 360px;
+  width: auto;
+}
+
+.bio_pic {
+  display: inline-block;
+  position: relative;
+  height: 300px;
+  width: auto;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.txt_bio {
+  display: inline-block;
+  position: absolute;
+  height: 300px;
+  width: auto;
+  /* background-color: blue; */
+  margin-top: 35px;
+  margin-left: 50px;
+  width: 800px;
+}
+
+.bio_item {
+  display: inline-block;
+  position: relative;
+  margin-left: 10px;
+  margin-top: 23px;
+  font-size: 26px;
+  width: 700px;
+  /* background-color: green; */
+  height: auto;
+  text-align: left;
+  color: black;
+  text-decoration: none;
+  font-family: "Karla", sans-serif;
+}
+
+.project {
+  display: block;
+  position: static;
+  width: 1100px;
+  height: auto;
+  /* background-color: tomato; */
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+.project_pic {
+  display: inline-block;
+  position: static;
+  width: 240px;
+  height: 240px;
+  border: 2px solid black;
+  border-radius: 7px;
+  padding: 3px;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.project_txt {
+  font-family: "Karla", sans-serif;
+  display: inline-block;
+  position: relative;
+  height: auto;
+  width: 900px;
+  /* background-color: green; */
+  margin-top: -240px;
+  margin-left: 350px;
+  /* margin-right: 1000px; */
+}
+
+.project_name {
+  display: block;
+  position: static;
+  /* background-color: blue; */
+  margin-top: 5px;
+  margin-left: 10px;
+  font-size: 27px;
+  font-weight: 500;
+  margin-bottom: 7px;
+}
+
+.project_auth {
+  display: block;
+  position: relative;
+  /* background-color: blue; */
+  color: #374048;
+  width: auto;
+  margin-top: 5px;
+  margin-left: 10px;
+  font-size: 18px;
+  width: 600px;
+}
+
+.project_time {
+  display: block;
+  position: relative;
+  /* background-color: blue; */
+  color: black;
+  width: auto;
+  margin-top: 5px;
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.project_abst {
+  display: block;
+  position: relative;
+  /* background-color: blue; */
+  color: black;
+  width: auto;
+  margin-top: 15px;
+  margin-left: 10px;
+  font-size: 20px;
+  width: 600px;
+}
+
+.project_detail {
+  font-family: "Karla", sans-serif;
+  display: inline-block;
+  position: static;
+  width: 900px;
+  height: auto;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  line-height: 1.6;
+  background-color: lightblue;
+}

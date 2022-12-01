@@ -1,0 +1,36 @@
+<html>
+<header>
+   <title>Tanay Srivastava's Portfolio</title>
+   <link type="text/css" rel="stylesheet" href="styles.css"/>
+   <!-- <script type="text/javascript" src="projects.json"></script> -->
+   <script type="text/javascript" src="main.js"></script>
+</header>
+<body>
+    <div class="screen">
+        <div class="header">
+            <a href="index.html" class="header_item">Home</a>
+            <a href="projects.html" class="header_item">Projects</a>
+            <a href="bio.html" class="header_item">Bio</a>
+            <a href="pdfs/Resume.pdf" class="header_item">Resume</a>
+
+        </div>
+        <div class="area_title">About</div>
+        <div class="bio">
+            <img class="bio_pic" src="images/bio_pic.jpg" alt="Bio pic"/>
+            <div class="txt_bio">
+                <div class="bio_item">Tanay Srivastava</div>
+                <div class="bio_item">Computer Science, Senior</div>
+                <div class="bio_item">Northwestern University</div>
+                <div class="bio_item">Contact: s_tanay@yahoo.com</div>
+                <a href="pdfs/Resume.pdf" class=bio_item>Resume</a>
+            </div>
+        </div>
+        <div class="area_title">Project Spotlight</div>
+        <section class="project_spotlight" id="project_list">
+        </section>
+    </div>
+
+    <script>
+        two_project_abstract(projects, "#project_list");
+    </script>
+</html>
